@@ -1,0 +1,201 @@
+html, body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    font-size:12px;
+    background-color:#fff;
+}
+.header-img{
+    margin:0;
+    padding:0;
+    background-image: url("http://i.imgur.com/5oRD9PS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 85vh;
+    background-position: center;
+   
+}
+#banner{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 20px 0px 0px;
+    background-color: #dfdbdb;
+    background-image: none;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    width:100%;
+    height: 60px;
+}
+.rectangle {
+	width: 225px;
+	height: 30px;
+	background:#b998d0 ;
+    float: left;
+    padding: 30px 0px 0px 55px;
+}
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-bottom: 60px solid #dfdbdb;
+	border-left: 90px solid transparent;
+  float: left;
+  position: absolute;
+  left: 190px;
+}
+.madera_logo{
+    display: block;
+    text-transform: capitalize;
+    font-size:1.9rem;
+    color: #fff;
+  
+} 
+
+/*weather update*/
+.weather{
+    margin-top: 30px;
+    position: relative;
+    right: 45px;
+    font-size: 25px !important; 
+}
+
+/*search bar slide out*/
+
+#wrap {
+ 
+  display: inline-block;
+  float: right;
+  padding: 0;
+  width: 30%;
+}
+form{
+    margin-top: 15px;
+}
+.search_bar{
+   
+    float: left;
+}
+input[type="search"]{
+
+  width:40px;
+  height: 30px;
+  margin-top: 12px;
+    background: none;
+    border: none;
+    background-image: url("http://i.imgur.com/T3uvKEO.png");
+    background-size: 40px 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+input[type="search"]:focus{
+  -moz-transition:all 2s ease;
+  -webkit-transition:all 2s ease;
+  width:250px;
+  float:right;
+  border:none;
+  outline:none;
+  border-bottom: grey 2px solid;
+}
+
+/*sticky menu bar*/
+.menu{
+    font-size:25px;
+    margin-top: 29px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    text-shadow: 1px grey;
+}
+.navigation_one{
+  background-color: #fff;
+  width: 30%;
+  position: fixed;
+  display: none;
+  height: 350px;
+  margin:0;
+  padding:0;
+}
+#sticky_menu{
+  display: none;
+}
+#sticky_menu:checked~.navigation_one{
+  display: block;
+}
+
+.ul_main_nav{
+  width: 100%;
+  margin:0;
+  padding:0;
+  
+}
+/*li style for main header*/
+.main_nav{
+  width: 100%;
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-align: center;
+  
+}
+/*dropdown menu on home page a href*/
+.main_page_li{
+  
+   color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 30px;
+    width: 100%;
+    border-bottom:solid #b1a59d 1px;
+    text-transform: uppercase;
+}
+.main_page_li:hover{
+  background-color: #b998d0;
+  color: #fff;
+}
+/*div for the large X*/
+#x{
+  background-color: #fff;
+  width: 100%;
+  height: 20px;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  position: relative;
+  top:-50px;
+}
+.equis_nav{
+  font-size: 50px !important;
+  float: right;
+}
+
+/*    vertical boxes     */
+
+.boxes{
+  width: 1400px;
+  height: 250px;
+}
+  
+p{
+  display: inline-block;
+  font-family: arial, sans-serif;
+  height: 250px;
+  margin: 0 14px;
+  text-transform: uppercase;
+  
+  text-align: center;
+  width:300px;
+   color:#fff;
+   background-color:rgb(217, 179, 255);
+  
+}
