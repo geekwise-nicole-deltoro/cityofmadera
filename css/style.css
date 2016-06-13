@@ -519,7 +519,7 @@ hr{
   color:#000;
   text-decoration: none;
 }
-.footer_title_contact{
+.footer-title{
   color: #fff;
   font-size: 18px;
   text-align: center;
@@ -527,7 +527,7 @@ hr{
   margin-top:0;
 }
 
-.madera_footer_info{
+.footer-info{
   width: 33%;
   float: left;
   font-family: monospace;
@@ -545,7 +545,7 @@ hr{
   width: 65%;
   float: right;
 }
-.madera_contact{
+.madera-contact{
    float: left;
    width: 45%;
    margin-top: 25px;
@@ -557,14 +557,15 @@ hr{
   color: #000;
   text-decoration: none;
 }
-.social_media_footer{
+
+.social-media-footer{
   width: 33%;
   float:left;
 }
-.social_media_ul{
+.social-media-ul{
   width: 100%;
 }
-.li_social_media{
+.li-social-media{
   width: 90%;
   margin:auto;
   float: left;
@@ -573,6 +574,6 @@ hr{
   margin-top: 25px;
   padding-top: 25px;
 }
-.fb_img{
+.fb-img{
   width: 50%;
 }
