@@ -59,14 +59,12 @@ html, body{
 	width: 225px;
 	height: 30px;
 	background:#b585ce ;
-    float: left;
-    padding: 30px 0px 0px 55px;
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 22px;
+  float: left;
+  padding: 30px 0px 0px 55px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 22px;
 }
-
-
 
 
 .fa {
@@ -77,7 +75,7 @@ html, body{
 
 
 
-/*weather update*/
+
 .weather{
     margin: o auto;
     position: relative;
@@ -86,7 +84,6 @@ html, body{
     margin-top: 30px;
     color: #000;
 }
-
 
 
 #wrap {
@@ -180,13 +177,18 @@ input[type="search"]:focus{
   background-color: #b998d0;
   color: #fff;
 }
-/*div for the large X*/
+
+#border_top_res{
+   border-top:solid #b1a59d 1px;
+}
+
+
 #x{
   background-color: #fff;
   width: 100%;
   height: 20px;
-  padding-bottom: 25px;
-  padding-top: 50px;
+  padding-bottom: 35px;
+  padding-top: 40px;
   position: relative;
   top:-50px;
 }
@@ -200,7 +202,7 @@ input[type="search"]:focus{
   margin: auto;
   padding:0;
   position: relative;
-  top:-250px;
+  top:-300px;
   text-align: center;
 
 
@@ -269,12 +271,12 @@ section#slider figure {
     padding-bottom: 10px;
     padding-top:10px;
     margin:0;
-  padding:0;
-  font-size: 18px;
-  color:#8e6a8e;
-  text-transform: uppercase;
-  font-family: monospace;
-  font-weight: bold;
+    padding:0;
+    font-size: 18px;
+    color:#8e6a8e;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
     
 }
 #alert{
@@ -310,4 +312,267 @@ section#slider figure {
 }
 .read_more{
   
+}
+
+.madera_fact_section{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.line_home{
+  background-color: #b585ce;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.line_across{
+  background-color: #beb6c2;
+  color:#fff;
+  font-size: 48px;
+  font-weight:bold;
+  font-family: monospace;
+  width: 100%;
+  height:50px;
+  margin:0;
+  padding:0;
+  text-align:center;
+  padding-bottom: 10px;
+  padding-top:10px;
+  
+}
+
+
+.facts{
+  width:25%;
+  height:200px;
+  float:left;
+  text-align: center;
+  margin:0;
+  padding:0;
+  background-color:  #b585ce;
+
+}
+
+.grey{
+     background-color: #dcdfdf;
+
+}
+
+.content_facts{
+  font-size: 22px;
+  font-family: monospace;
+  margin:0;
+  padding:0;
+  color:#000;
+  padding-top:35px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+hr{
+  width:50%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 1px;
+  background-color: grey;
+  border-radius: 5px;
+  float: left;
+  margin-left: 10px;
+    
+}
+
+
+.facts_link{
+  text-decoration: none;
+  color:grey;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+
+.text_content_fact{
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  
+}
+/*event calendar section css*/
+.event_sec{
+  width: 100%;
+  margin:0;
+  float: left;
+  padding-bottom: 45px;
+ 
+}
+.event_div{
+  width: 100%;
+  color:#b585ce;
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align:center;
+  padding-top:45px;
+  padding-bottom:45px;
+  font-weight: bold;
+  
+  
+}
+.ul_event{
+  width: 60%;
+  margin:auto;
+  background-color:#dcdfdf;
+  padding:10px;
+  background-image: url("http://i.imgur.com/Z0lSh1k.jpg");
+  background-size: 100%;
+  background-image: linear-gradient(0deg, #dcdfdf, #dcdfdf 40%, #dcdfdf);
+}
+.li_event_calendar{
+  width: 100%;
+  margin:0;
+  padding:0;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+  height: 65px;
+  
+
+ 
+}
+.date_event{
+  width: 5%;
+  height: 45px;
+  padding:10px;
+  background-color:#b585ce;
+  color:#fff;
+  text-align: center;
+  font-size: 18px;
+  margin:0;
+  float: left;
+
+}
+
+.event{
+  width: 90%;
+  float: left;
+  color: #000;
+   text-decoration: none;
+  line-height: 3;
+  font-size:18px;
+  padding-left: 5px;
+  text-transform: capitalize;
+}
+/*font awesome angle right*/
+#angle-right{
+  float: right;
+  font-size:20px;
+}
+
+/*footer section css footer nav*/ 
+
+.main-footer{
+  width: 100%;
+  padding:0;
+  margin:0;
+  background-color: #dcdfdf;
+  float: left;
+  
+}
+.home-footer_nav{
+  width:33%;
+  padding:0;
+  margin:0;
+  float: left;
+}
+.home-footer_ul{
+  width:100%;
+  padding:0;
+  margin:0;
+}
+.home-footer_li{
+  width: 50%;
+  margin:auto;
+  padding:0;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: monospace;
+  
+}
+/*footer nav site section*/
+.site_map{
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 0;
+}
+.footer_link{
+  color:#000;
+  text-decoration: none;
+}
+.footer_title_contact{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top:0;
+}
+
+.madera_footer_info{
+  width: 33%;
+  float: left;
+  font-family: monospace;
+  text-transform: capitalize;
+  font-size:14px;
+ 
+  
+  
+}
+.footer_madera_logo{
+  width: 50%;
+  float: left;
+}
+#logo{
+  width: 65%;
+  float: right;
+}
+.madera_contact{
+   float: left;
+   width: 45%;
+   margin-top: 25px;
+   padding-top: 20px;
+   font-weight: bold;
+  
+}
+.madera_tele{
+  color: #000;
+  text-decoration: none;
+}
+.social_media_footer{
+  width: 33%;
+  float:left;
+}
+.social_media_ul{
+  width: 100%;
+}
+.li_social_media{
+  width: 90%;
+  margin:auto;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+.fb_img{
+  width: 50%;
 }
