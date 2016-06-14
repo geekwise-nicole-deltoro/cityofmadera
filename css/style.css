@@ -469,6 +469,71 @@ hr{
   padding-left: 5px;
   text-transform: capitalize;
 }
+
+/* start of cityfacts */
+
+main{
+  margin: 8rem;
+  width: 100%;
+  background-color: #fff;
+}
+
+.page-title{
+  margin: 0;
+  padding: 0;
+  font-size: 4.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #b585ce;
+}
+
+.bold{
+  margin: 0;
+  color: #e6ccff;
+  width: 20em;
+  
+}
+
+.black-bold{
+  margin: 0;
+  color: #000;
+  font-size:2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+ 
+  
+}
+
+
+.trivia{
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  border: hidden;
+  background-color: #fff;
+  
+}
+
+.city-facts-content{
+  margin: 0 auto;
+  float: left;
+  width: 60%;
+  font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*font awesome angle right*/
 #angle-right{
   float: right;
@@ -483,6 +548,7 @@ hr{
   margin:0;
   background-color: #dcdfdf;
   float: left;
+  height: auto;
   
 }
 .home-footer_nav{
