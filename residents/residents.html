@@ -5,7 +5,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
         
         <script src="https://use.fontawesome.com/7229e37c58.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
@@ -14,26 +14,54 @@
 <body>
 
 <!--   top header     -->
-         <header id="banner" class="header-img">
-        
-            <a href="index.html"><div class="madera_logo">city of madera</div></a>
-            <div class="weather"><i class="fa fa-sun-o" aria-hidden="true">70</i></div>
-            
-	<div id="wrap">
-          <form action="" autocomplete="on">
-              <input id="search" name="search" type="text" placeholder="Search">
-              <input id="search_submit" value="Rechercher" type="submit" >
-                <i class="fa fa-search" id="search_submit" aria-hidden="true"></i>
-        <div class="menu"><i class="fa fa-bars" aria-hidden="true"></i>Menu</div>
-          </form>
-          
-    </div>
-</header>
+       <header class="#">
+          <div id="purple_corner">
+                   
+            <div class="madera_logo square" >            
+                <i class="fa fa-sun-o weather" aria-hidden="true">70</i>
+            </div> 
+               <a href="/index.html" class="shape">     
+              <div class="top_rec">
+                 
+                    city of madera 
+                    
+              </div>
+             </a>
+                   
+<div id="wrap">
+           <form>
+              <div class=search_bar>
+                 <input type="search" placeholder="" id=search>  
+              </div>
+            </form>
+     
+    <div class="menu">
+         <label for="sticky_menu">
+     <div> 
+          <i class="fa fa-bars" aria-hidden="true"></i> Menu 
+     </div>
+<input type="checkbox" id="sticky_menu"/>
+<nav class="navigation_one">
+                 <div id="x">
+                            <i class="fa fa-times equis_nav" aria-hidden="true"></i></div>
+                <ul class="ul_main_nav">
+                     <li class="main_nav"><a href="/residents/residents.html" class="main_page_li">residents</a></li>
+                     <li class="main_nav"><a href="/visitors/visitors.html" class="main_page_li">visitors</a></li>
+                    <li class="main_nav"><a href="/buisness/buisness.html" class="main_page_li">business</a> </li>
+                    <li class="main_nav"><a href="/government/government.html" class="main_page_li">government</a></li>
+                    
+                </ul>
+            </nav>
+            </label>
+            </div>  
+        </div>
+        </div>
+        </header>
 
 <!-- END      OF HEADER    -->
 
 
-<!-- START   OF MAIN    NAVIGATION    --->
+<!-- 
 
 <nav class="navigation_one">
     <ul>
@@ -84,10 +112,97 @@
                 </ul>
             </nav>
             
-<!-- END OF MAIN NAVIGATION    -->   
+    -->   
             
 <!--     MAIN PAGE SCROLL BOX INFO   -->
-            <main>
+            <main class="residents_main">
+                <section class="section_scroll">
+                <div class="resident_side_menu">
+                 <h1 class="resident_title">residents</h1>
+                         <div class="resident_line"></div>
+                        <ul class="resident_list_ul">
+                             <li class="resident_li">
+                                 <a href="/residents/cityfacts.html" class="resident_scroll_list">city facts</a>
+                             </li>
+                             <li class="resident_li">
+                                 <a href="/residents/hr.html" class="resident_scroll_list">housing resources</a>
+                             </li>
+                             <li class="resident_li">
+                                 <a href="/residents/pets.html" class="resident_scroll_list">pets</a>
+                             </li>
+                             <li class="resident_li">
+                                 <a href="/residents/trafficinfo.html" class="resident_scroll_list">traffic information</a>
+                            </li>
+                             <li class="resident_li">
+                                 <a href="/residents/utilities.html" class="resident_scroll_list">utilities</a>
+                            </li>
+                             <li class="resident_li">
+                                 <a href="/residents/emergencyinfo.html" class="resident_scroll_list">emergency information</a>
+                             </li>
+                        </ul>
+                
+                </div>
+                <div class="scroll_box_right">
+                    
+                    <div class="scroll_res_box">
+                        <p class="text_half_box">
+                            <a href="/residents/cityfacts.html" class="resident_facts">city facts</a></p>
+                        <div class="box_line"></div>
+                        <p class="box_info">The word "Madera" means, "wood" in Spanish. The City was originally named 
+                        for its timber-based economy.</p>
+                    </div>
+                    <div class="scroll_res_box">
+                        <p class="text_half_box">
+                            <a href="/residents/hr.html" class="resident_facts">housing resources</a>
+                            </p>
+                            <div class="box_line"></div>
+                            <p class="box_info"> For housing resources within the city please visit the Housing 
+                            Grants and the Housing Authority web pages</p>
+                            </div>
+                    <div class="scroll_res_box">
+                        <p class="text_half_box">
+                            <a href="/residents/pets.html" class="resident_facts">pets</a>
+                            </p>
+                            <div class="box_line"></div>
+                            <p class="box_info">Protect and Serve the citizens and animals of the City of
+                            Madera, through enforcement of City, State and Federal animal laws and education.</p>
+                            </div>
+                    <div class="scroll_res_box">
+                        <p class="text_half_box">
+                            <a href="/residents/trafficinfo.html" class="resident_facts">traffic information</a>
+                            </p>
+                            <div class="box_line"></div>
+                            <p class="box_info">For highway information in Madera</p>
+                            </div>
+                     <div class="scroll_res_box">
+                         <p class="text_half_box">
+                             <a href="/residents/utilities.html" class="resident_facts">utilities</a>
+                             </p>
+                             <div class="box_line"></div>
+                             <p class="box_info">he City of Madera utility services include water, sewer, drainage, street 
+                             sweeping, garbage, recycling and green waste collection.</p>
+                             </div>
+                      <div class="scroll_res_box">
+                          <p class="text_half_box">
+                              <a href="/residents/emergencyinfo.html" class="resident_facts">emergancy information</a>
+                              </p>
+                              <div class="box_line"></div>
+                              <p class="box_info">Madera County Public Health Department</p></div>
+                
+                </div>
+                    
+                </section>
+            </main>
+                
+                
+                
+                
+                
+                
+    <!--            
+                
+                
+                
                 <section>
                 <div>
                  <li><a href="/residents/index-residents.html">residents</a>
@@ -116,9 +231,7 @@
                 </section>
             </main>
             
-    <!-- END OF   INFO CONTENT   -->
     
-    <!-- START   OF  OF FOOTER  -->
                     <footer>
                 <section>
                 <ul>
@@ -168,24 +281,45 @@
                         
                 </ul>
                 </section>
-    <!--     END OF  BOTTOM NAVIGATION   -->
-                 <section>
-                    <div>city of madera</div>
-                    <div>madera city hall<br> 703 sherrwood way<br> madera, ca 93638 <br> <a href="tel=15596748412">(559)674-8412</a></div>
+       -->
+   <footer class="main-footer">
+    <section class="home-footer_nav">
+        
+        <ul class="home-footer_ul">
+                    <li class="home-footer_li site_map"> site map</li>
+                    <li class="home-footer_li"><a href="/index.html"> home</a></li>
+                    <li class="home-footer_li"><a href="/residents/residents.html">residents</a></li>
+                    <li class="home-footer_li"><a href="/visitors/visitors.html">visitors</a></li>
+                    <li class="home-footer_li"><a href="/buisness/buisness.html">business</a></li>
+                    <li class="home-footer_li"><a href="/government/government.html">government</a></li>
+                        
+                </ul>
                 </section>
                 
-                
-    <!-- START OF SOCIAL MEDIA LINKS   -->
     
-                <section>
-                    <ul>
-                        <li><a href="#"><img src="#">social media</img></a></li>
-                          <li><a href="#"><img src="#">social media</img></a></li>
-                            <li><a href="#"><img src="#">social media</img></a></li>
+<section class="footer-info">
+    <p class="footer-title">city of madera</p>
+      <div class="footer_madera_logo"><img src="http://i.imgur.com/OgJZ3hl.png" id="logo"></img></div>
+    
+                    <div class="madera-contact">city of madera</div>
+                    <div>madera city hall<br> 703 sherrwood way<br> madera, ca 93638<br> <a href="tel=15596748412">(559)674-8412</a></div>
+                </section>
+                <section class="social-media-footer">
+                    <ul class="social-media-ul">
+
+                        <li class="li-social-media">
+                        <a href="https://www.facebook.com/City-of-Madera-Local-Government-622279304458103/">
+                        <img src="http://i.imgur.com/YZ70p8f.png" class="fb-img"></img></a></li>
+                        
+                       
+                     
                     </ul>
                 </section>
-                
-    <!--     END OF SOCIAL MEDIA     -->
-            </footer>
+            </footer>              
+                 
+                 
+                 
+                 
+                 
             </body>
             </html>

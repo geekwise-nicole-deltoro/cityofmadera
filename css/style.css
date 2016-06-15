@@ -470,6 +470,129 @@ hr{
   text-transform: capitalize;
 }
 
+
+
+
+/* main residents page */
+.residents_main{
+  width: 100%;
+  margin:0;
+  padding:0;
+  /*background image */
+  background-image:url("http://i.imgur.com/TE0kXq7.jpg");
+  /*background-position: 0 0px, 100% 100%;*/
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    min-height: 100vh;
+}
+.section_scroll{
+  width: 100%;
+  position: relative;
+  top:130px;
+  
+}
+.resident_side_menu{
+  width: 45%;
+  text-align: left;
+  float: left;
+  margin-top: 25px;
+}
+.resident_title{
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: monospace;
+  text-align: center;
+
+}
+.resident_line{
+  width: 30%;
+  margin:auto;
+  border-bottom: solid 2px grey;
+  padding-top: 25px;
+}
+.resident_list_ul{
+  width: 100%;
+  
+}
+.resident_li{
+  list-style: none;
+  width: 35%;
+  margin:auto;
+  font-size: 18px;
+  line-height: 2;
+ font-weight: bold;
+  font-family: monospace;
+  
+}
+.resident_scroll_list{
+  width: 100%;
+  text-decoration: none;
+   color: #000;
+  text-transform: capitalize;
+}
+.resident_scroll_list:hover{
+  color:#fff;
+}
+/*scroll box css*/
+.scroll_box_right{
+  width: 45%;
+  height: 300px;
+   overflow-y: scroll;
+   padding-bottom: 25px;
+   padding-top: 25px;
+  
+}
+.scroll_res_box{
+  width: 500px;
+  height: 300px;
+  background-color: #8d629b;
+  margin:auto;
+  margin-bottom: 25px;
+  padding-left: 15px;
+    position: relative;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+
+    
+}
+.text_half_box{
+  padding-top:100px;
+  
+}
+.box_info{
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: monospace;
+}
+/*a href tag for the li facts box*/
+.resident_facts{
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-family: monospace;
+  
+ 
+}
+.box_line{
+  width: 45%;
+  border-bottom: 1px solid #fff;
+  
+}
+
+
+
+
+
+
+
+
 /* start of cityfacts */
 
 .city_main{
