@@ -5,29 +5,61 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <script src="https://use.fontawesome.com/7229e37c58.js"></script>
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
        
         <script type="text/javascript" src="js/script.js"></script>
         
     </head>
     <body>
-         <header id="banner" class="header-img">
-        
-            <a href="index.html"><div class="madera_logo">city of madera</div></a>
-            <div class="weather"><i class="fa fa-sun-o" aria-hidden="true">70</i></div>
-            
-	<div id="wrap">
-          <form action="" autocomplete="on">
-              <input id="search" name="search" type="text" placeholder="Search">
-              <input id="search_submit" value="Rechercher" type="submit" >
-                <i class="fa fa-search" id="search_submit" aria-hidden="true"></i>
-        <div class="menu"><i class="fa fa-bars" aria-hidden="true"></i>Menu</div>
-          </form>
-          
-    </div>
-            
+         
+            <header class="#">
+          <div id="purple_corner">
+                   
+            <div class="madera_logo square" >            
+                <i class="fa fa-sun-o weather" aria-hidden="true">70</i>
+            </div> 
+               <a href="/index.html" class="shape">     
+              <div class="top_rec">
+                 
+                    city of madera 
+                    
+              </div>
+             </a>
+                   
+<div id="wrap">
+           <form>
+              <div class=search_bar>
+                 <input type="search" placeholder="" id=search>  
+              </div>
+            </form>
+     
+    <div class="menu">
+         <label for="sticky_menu">
+     <div> 
+          <i class="fa fa-bars" aria-hidden="true"></i> Menu 
+     </div>
+<input type="checkbox" id="sticky_menu"/>
+<nav class="navigation_one">
+                 <div id="x">
+                            <i class="fa fa-times equis_nav" aria-hidden="true"></i></div>
+                <ul class="ul_main_nav">
+                     <li class="main_nav"><a href="/residents/residents.html" class="main_page_li">residents</a></li>
+                     <li class="main_nav"><a href="/visitors/visitors.html" class="main_page_li">visitors</a></li>
+                    <li class="main_nav"><a href="/buisness/buisness.html" class="main_page_li">business</a> </li>
+                    <li class="main_nav"><a href="/government/government.html" class="main_page_li">government</a></li>
+                    
+                </ul>
+            </nav>
+            </label>
+            </div>  
+        </div>
+        </div>
         </header>
-       
+
+         
+         
+         
+       <!--
             <nav class="navigation_one">
                 <ul>
                     
@@ -77,22 +109,34 @@
                 </ul>
             </nav>
             
-            <!-- end of main navi menu-->
-            <main>
-                <section>
-                <div>
-                 <li><a href="visitors.html">visitors</a>
-                        <ul>
-                            <li>visitors</li>
-                             <li><a href="/visitors/history.html">history</a></li>
-                              <li><a href="/visitors/gettingtomadera.html">getting to madera</a></li>
-                               <li><a href="/visitors/accommadations.html">accommadations</a></li>
-                                <li><a href="/visitors/localattractions.html">local attractions</a></li>
-                                 <li><a href="/visitors/relocatetomadera.html">relocate to madera</a></li>
-                                  
+                                                            -->
+            
+                 <main class="residents_main">
+                <section class="section_scroll">
+                <div class="resident_side_menu">
+                 <h1 class="resident_title">visitors</h1>
+                         <div class="resident_line"></div>
+                        <ul class="resident_list_ul">
+                             <li class="resident_li">
+                                 <a href="/visitors/history.html" class="resident_scroll_list">history</a>
+                             </li>
+                             <li class="resident_li">
+                                 <a href="/visitors/gettingtomadera.html" class="resident_scroll_list">getting to madera</a></a>
+                             </li>
+                             <li class="resident_li">
+                                 <a href="/visitors/accomadations.html" class="resident_scroll_list">accomadations</a>
+                             </li>
+                             <li class="resident_li">
+                                 <a href="/visitors/localattractions.html" class="resident_scroll_list">local attractions</a>
+                            </li>
+                             <li class="resident_li">
+                                 <a href="/visitors/relocatetomadera.html" class="resident_scroll_list">relocate to madera</a>
+                            </li>
+                             
                         </ul>
-                    </li>
+                
                 </div>
+            
                 <div>scroll box
                 <div>main page info</div>
                     <div><a href="/visitors/history.html">history</a>info</div>
